@@ -1,1 +1,2 @@
-// code
+// codec
+const test=()=>{}

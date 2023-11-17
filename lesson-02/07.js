@@ -7,6 +7,9 @@ let passportMarried = {
     }
 };
 
+passportMarried.address.city = "Bobryisk"
+
+
 let passportMarried2 = {...passportMarried,  married: true, address: {...passportMarried.address}} 
 passportMarried2.married = true
 

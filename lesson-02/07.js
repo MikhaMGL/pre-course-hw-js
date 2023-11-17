@@ -9,7 +9,7 @@ let passportMarried = {
 
 let passportMarried2 = {...passportMarried,  married: true, address: {...passportMarried.address}} 
 passportMarried2.married = true
-passportMarried2.name = "Ivan"
+
 passportMarried2.address.city = "Bobryisk"
 
 console.log(passportMarried); 

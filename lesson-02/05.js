@@ -4,6 +4,7 @@ let passport = {
 };
 let passport2 = {...passport};
 passport.name  = "Ivan"
+passport.surname  = "Ivanov"
 
 
 console.log(passport);

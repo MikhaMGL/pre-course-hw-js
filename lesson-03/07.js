@@ -5,12 +5,6 @@ const numbers = [
 ];
 
 
-for (let i = 0; i < numbers.length; i++) {
-    for (let j = 0; j < numbers[i].length; j++) {
-        if (numbers[i][j] % 2 !== 0) {
-            numbers[i][j] = null;
-        }
-    }
-}
-
-console.log(numbers);
+numbers.map(row => { 
+    row.map(number => number % 2 === 0 ? console.log(number) : undefined); 
+}); 
